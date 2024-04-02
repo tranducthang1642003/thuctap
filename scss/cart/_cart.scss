@@ -1,0 +1,19 @@
+.cart{
+    display: block;
+    border: $base-border-thickness solid rgb(255, 255, 255);
+ 
+
+}
+
+.cart-tile{
+font-size: $base-font-size;
+padding-bottom: $base-padding;
+font-weight: bold;
+box-shadow: $base-box-shadow;
+
+}
+
+.cart-body{
+    font-size: $base-font-size;
+    width: $base-width;
+}
