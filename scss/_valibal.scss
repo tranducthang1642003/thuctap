@@ -1,7 +1,7 @@
 $base-padding:0.75em;
 $base-margin:0.75em;
 
-$base-border-radius:20px;
+$base-border-radius:200px;
 $base-border-thickness:1px;
 
 $base-box-shadow:1px 3px 5px #151414;
@@ -9,3 +9,12 @@ $base-box-shadow:1px 3px 5px #151414;
 $base-font-size:1em;
 
 $base-width:15%;
+
+$base-height:50px;
+$base-text-align: center;
+$base-padding-bottom:25px;
+
+
+$base-font-size:1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;

@@ -1,3 +1,6 @@
+@use 'sass:math';
+
+
 .cart{
     display: block;
     border: $base-border-thickness solid rgb(255, 255, 255);
@@ -8,12 +11,16 @@
 .cart-tile{
 font-size: $base-font-size;
 padding-bottom: $base-padding;
-font-weight: bold;
+font-size: $font-size-lg;
 box-shadow: $base-box-shadow;
-
+height: $base-height;
+text-align:$base-text-align;
+padding-bottom: $base-padding-bottom;
+border-radius: math.div($base-border-radius, 50);
 }
 
 .cart-body{
-    font-size: $base-font-size;
+
     width: $base-width;
+
 }
