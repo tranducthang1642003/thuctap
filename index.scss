@@ -1,0 +1,8 @@
+$prime:#00FF00;
+$base-border-left:1px solid #000000;
+$base-border-width:20px;
+h1{
+    color: $prime;
+    border: $base-border-left;
+    border-width: $base-border-width;
+}
