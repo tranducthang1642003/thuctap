@@ -1,8 +1,14 @@
-$prime:#00FF00;
-$base-border-left:1px solid #000000;
+@import 'Style';
+
+$mau:blueviolet;
 $base-border-width:20px;
+$base-text-align: center;   
+$base-border-radius:50px;
+
 h1{
-    color: $prime;
+    color: $mau;
     border: $base-border-left;
     border-width: $base-border-width;
+ text-align: $base-text-align;
+border-radius: $base-border-radius;
 }
