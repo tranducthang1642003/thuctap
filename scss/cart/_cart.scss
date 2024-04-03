@@ -1,5 +1,4 @@
 .bar{
-height: $base-height;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -21,11 +20,20 @@ height: 45px;
  width:$w-30-width;
 }
  
+.w-23{
+    width:$w-23-width;
+   }
+
+
 .w-100{
     width:$w-100-width;
    }   
 
 .h-100{
     height:$h-100-height;
+   
+}   
+.h-90{
+    height:$h-90-height;
    
 }   
