@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bar{
 display: flex;
 justify-content: space-around;
@@ -37,3 +38,31 @@ height: 45px;
     height:$h-90-height;
    
 }   
+=======
+@use 'sass:math';
+
+
+.cart{
+    display: block;
+    border: $base-border-thickness solid rgb(255, 255, 255);
+ 
+
+}
+
+.cart-tile{
+font-size: $base-font-size;
+padding-bottom: $base-padding;
+font-size: $font-size-lg;
+box-shadow: $base-box-shadow;
+height: $base-height;
+text-align:$base-text-align;
+padding-bottom: $base-padding-bottom;
+border-radius: math.div($base-border-radius, 50);
+}
+
+.cart-body{
+
+    width: $base-width;
+
+}
+>>>>>>> 2e7319a04490066d3a337d35e140bbdad8418895
