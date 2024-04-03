@@ -10,14 +10,9 @@
 
   //if nếu đúng màu đỏ ở for thì hiện lên 9 màu không thì ko hiện   
  @if($val !=red and $val != Aqua){
-    @for $i  from 1 through 9{
-        .text-#{$key}-light-#{$i} {
-           color: mix(red ,$val , $i * 10);
-        }
-       .bg-#{$key}-light-#{$i}{
-           background-color: mix(red ,$val , $i * 10);
-       }
-    }
+
+
+ 
 
     @for $i  from 1 through 9{
         .text-#{$key}-dark-#{$i} {
@@ -30,8 +25,8 @@
 
     }
  }
+ }
 
-}
 
 
 

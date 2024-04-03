@@ -5,17 +5,21 @@ justify-content: space-around;
 align-items: center;
 }
 
+.p-d{
+    padding: $p-d-padding;
+}
+ 
 .logo{
 width: 20%;
 height: 45px;
 }
 .menu{
-width: 40%;
+width: 75%;
 height: 45px;
+display: flex;
+align-items: center;
 }
-.accout{
-height: 45px;
-}
+
 
 .w-30{
  width:$w-30-width;
@@ -39,6 +43,14 @@ height: 45px;
    
 }   
 
-
-
+ul li{
+    list-style: none;
+float: left;
+font-size: $base-font-size;
+padding: $base-padding;
+}
+ 
+header{
+    min-height: auto;
+}
 
