@@ -1,0 +1,31 @@
+.bar{
+height: $base-height;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo{
+width: 20%;
+height: 45px;
+}
+.menu{
+width: 40%;
+height: 45px;
+}
+.accout{
+height: 45px;
+}
+
+.w-30{
+ width:$w-30-width;
+}
+ 
+.w-100{
+    width:$w-100-width;
+   }   
+
+.h-100{
+    height:$h-100-height;
+   
+}   

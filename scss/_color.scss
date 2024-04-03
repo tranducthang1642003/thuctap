@@ -1,0 +1,46 @@
+@each $key,$val in $color{
+    .text-#{$key} {
+        color: $val
+    }
+    .bg-#{$key}{
+        background-color: $val;
+    }
+
+ @if($val !=red and $val != Aqua   ){
+    @for $i  from 1 through 9{
+        .text-#{$key}-light-#{$i} {
+           color: mix(red ,$val , $i * 10);
+        }
+       .bg-#{$key}-light-#{$i}{
+           background-color: mix(red ,$val , $i * 10);
+       }
+
+
+    }
+
+    @for $i  from 1 through 9{
+        .text-#{$key}-dark-#{$i} {
+           color: mix(red ,$val , $i * 10);
+        }
+       .bg-#{$key}-darks-#{$i}{
+           background-color: mix(red ,$val , $i * 10);
+       }
+
+
+    }
+
+ }
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+
