@@ -10,10 +10,6 @@
 
   //if nếu đúng màu đỏ ở for thì hiện lên 9 màu không thì ko hiện   
  @if($val !=red and $val != Aqua){
-
-
- 
-
     @for $i  from 1 through 9{
         .text-#{$key}-dark-#{$i} {
            color: mix(red ,$val , $i * 10);
